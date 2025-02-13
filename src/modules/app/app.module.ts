@@ -2,7 +2,6 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { MorganInterceptor, MorganModule } from 'nest-morgan';
 import { AuthModuleOptions } from '@nestjs/passport';
 import { APP_INTERCEPTOR, RouterModule } from '@nestjs/core';
 import { routes } from './routes';
@@ -23,15 +22,11 @@ import { NotificationService } from '../../utils/firebase/notification.service';
     FirebaseModule,
     RouterModule.register(routes),
     ConfigModule.forRoot({ isGlobal: true }),
-    MorganModule,
   ],
   controllers: [AppController],
   providers: [
     AppService,
-    {
-      provide: APP_INTERCEPTOR,
-      useClass: MorganInterceptor('combined'),
-    },
+    
     AuthModuleOptions,
     NotificationService
   ],
