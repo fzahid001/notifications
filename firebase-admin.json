@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "alquran-22f7d",
+  "private_key_id": "94825363d1aef6df23a76f6365e032281f79a879",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCMbLXZOLvA+/sE\n6gPvdKDQ688ht7sMHXr5D69tfclLGzwTqvrjrPc5BX/M3AykngbRG27MuwZUWYT/\nYVALEJnqrPG2wX8TFeQPUK7ZHBIJay7pnEWjzSVmPmp7swy2XnkzElgExp0my3D9\nrpxmi+FddbWmwLx325R0AfXrAWF7F2+MpAzbPLCS6GjMDjgGgYP2w28NM4vOve97\nfVJ2/S4VVCLKO95zJSMkxIrZRIB5xcnLOuTLg0ZP0iLrcWFgMs1J50XyRdm4gxG1\nv1BJwcG0YjyvUVzdljTiMGJNqwP6zkx/CUyswg+Ojn4yjBSfbwkYnmQY12aWU1wA\npSIypXwDAgMBAAECggEAA6Ezuh+rSru4q1HZNDFRjtTpj7eOECwa56EuKahcsaJM\nlT2QKp5n7YNk4Ei30vF6v6Dz5jrXWQrPU0KSrRaKw/Qgc1bhD/862+J8AoSlOrUY\ni1VMv4Un+FKYsgXYyEX84AMTX1w656vOieAfjs8CzkWiomLM/FQirDT4xFBO0r2o\niOPf0zwNW1JGWz2LpmHwf8eRWxoOzAzNan5I7gDP6Q2rtQk3rcuIdoCTGzZgJkO8\n0fly40/Fhbm8aGnPSlmHINMfCHeiXHq314RXcLo9V0C6DY25RvZb6mtLgZSsDbh/\nOeDTxGhIPsUFUeKNpzu9jjT5gX4Ujuw1+NTjyaRk8QKBgQC6g9bgG3fmI/vgDgil\nW3KsAGjj0WM45jqFReFrGYXyvHmVAlXVaZHZaMvfgzgeytHzLOaRmodGI0258GKz\nSJAG/hPDwQOqn4F0GmtLKyw02UwGykaVrk+dpjpUQN4uCgYwKxqlTqL+zU4G5+iX\n7qa09AE6HVF8PKRDQNVyuFIb/QKBgQDAvS3I11y6z7KNWWO8/jymvTg4A/zE1nB0\nSjTtEG7INnYYGfgP1gLG24zT3nA34ImWSMEAkGTAx2C5qDW21VInkLMwpiA1IBjW\n/1fN8xwJwkrn36KuTAs36ParsElqSFlYuETYv70KP7NODLKrRKvMcZsXeZ7+cvTH\nly4xqg13/wKBgA3cGi2RHPnHFsJxiIbxIrZRWXoEZ0ElKpgYt0WEIgYFp2tBPyua\nqrHjLbMwRw1SuQM/BOsw9nhpyy7UBCGadMlwO/vB7gnRzIbaJ7rwPFq5AwNGKLSa\nvWPTpGX6ZAg7ynXt3g8GpuoUS4YL2abgnxa3QxgUcaevwe0VdkcOF1vpAoGATnCv\noX2Ej8LXuA8ZOGF/7Zw0tRdqV/Gt8qYAxDpb27/OcCChhFBk8OmJdvCgWx1W4YLa\niZA6cPqzsttygOZweQm646G4meZmNZnV8kturcoVEilB3A22wxpcyaMFPewT8LeN\nzWi7VuB16N3iGTHpeVsC85rbylKerFwqwKukr6ECgYBK97H/Um3+gAV118uUj3F2\n3y/on2N6fTSYYhLOAtxJ893UATEIrMog7V0tqkLXCyyw1durs/KhNhwUNDzwqCwJ\nBAQ90U12SSJs9PzrUI1PAEgoyqC4CyIPK/5tS8PRFJ/I3RsSC6yQlJ12/M+HbkEX\nevRLSfLGE5DpeqHA5hbCZg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "alquran-22f7d@appspot.gserviceaccount.com",
+  "client_id": "110762715654508737225",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/alquran-22f7d%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
