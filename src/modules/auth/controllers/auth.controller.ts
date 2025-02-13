@@ -5,7 +5,7 @@ export class AuthController {
   constructor(private readonly authService: AuthService) { }
 
   @Get('test')
-  async test() {
+  async test() { 
     return 'test';
   }
 
