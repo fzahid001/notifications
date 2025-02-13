@@ -5,11 +5,13 @@ import { config } from './config';
 import * as cors from 'cors';
 import { TransformInterceptor } from './interceptors';
 import * as compression from 'compression';
+import { ExpressAdapter } from '@nestjs/platform-express';
+import * as express from 'express'
 // import helmet from 'helmet';
 
 async function bootstrap() {
-  const logger = new Logger(config.SERVICE_NAME);
-  const app = await NestFactory.create(AppModule, {});
+  const server = express();
+  const app = await NestFactory.create(AppModule, new ExpressAdapter(server));
 
   app.useGlobalPipes(
     new ValidationPipe({
@@ -23,7 +25,7 @@ async function bootstrap() {
 
  
   await app.listen(config.PORT, () =>
-    logger.verbose(`App started on port: ${config.PORT}`),
+    console.log(`App started on port: ${config.PORT}`),
   );
 }
 bootstrap();
